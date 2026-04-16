@@ -46,7 +46,7 @@
     <!-- wp:column {"verticalAlignment":"top","width":"45%"} -->
     <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:45%">
 
-      <!-- wp:group {"className":"cc-fade-up"} -->
+      <!-- wp:group {"className":"cc-fade-up","style":{"spacing":{"blockGap":"1rem"}}} -->
       <div class="wp-block-group cc-fade-up">
 
         <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"1rem","left":"1rem"}}}} -->

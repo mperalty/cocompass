@@ -278,8 +278,7 @@
   flex-direction: column;
 }
 .wp-block-columns > .wp-block-column > .cc-card-lift > :last-child,
-.wp-block-columns > .wp-block-column > .cc-price-highlight > :last-child,
-.wp-block-columns > .wp-block-column > .cc-card-tight > :last-child {
+.wp-block-columns > .wp-block-column > .cc-price-highlight > :last-child {
   margin-top: auto;
 }
 
