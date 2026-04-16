@@ -35,8 +35,8 @@
         <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"0.95rem","fontWeight":"600"},"spacing":{"margin":{"bottom":"0.85rem"}}}} -->
         <h3 class="wp-block-heading" style="margin-bottom:0.85rem;font-size:0.95rem;font-weight:600">SEO Agency</h3>
         <!-- /wp:heading -->
-        <!-- wp:paragraph {"style":{"typography":{"fontFamily":"var(--wp--preset--font-family--serif)","fontSize":"1.6rem","fontWeight":"700","lineHeight":"1"},"spacing":{"margin":{"bottom":"0.2rem"}}}} -->
-        <p style="font-family:var(--wp--preset--font-family--serif);font-size:1.6rem;font-weight:700;line-height:1;margin-bottom:0.2rem">$2,500–5K</p>
+        <!-- wp:paragraph {"textColor":"contrast","style":{"typography":{"fontFamily":"var(--wp--preset--font-family--serif)","fontSize":"1.6rem","fontWeight":"700","lineHeight":"1"},"spacing":{"margin":{"bottom":"0.2rem"}}}} -->
+        <p class="has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--serif);font-size:1.6rem;font-weight:700;line-height:1;margin-bottom:0.2rem">$2,500–5K</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.72rem"},"spacing":{"margin":{"bottom":"1rem"}}},"textColor":"contrast-muted"} -->
         <p class="has-contrast-muted-color has-text-color" style="margin-bottom:1rem;font-size:0.72rem">per month</p>
@@ -62,8 +62,8 @@
         <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"0.95rem","fontWeight":"600"},"spacing":{"margin":{"bottom":"0.85rem"}}}} -->
         <h3 class="wp-block-heading" style="margin-bottom:0.85rem;font-size:0.95rem;font-weight:600">GEO / AEO Agency</h3>
         <!-- /wp:heading -->
-        <!-- wp:paragraph {"style":{"typography":{"fontFamily":"var(--wp--preset--font-family--serif)","fontSize":"1.6rem","fontWeight":"700","lineHeight":"1"},"spacing":{"margin":{"bottom":"0.2rem"}}}} -->
-        <p style="font-family:var(--wp--preset--font-family--serif);font-size:1.6rem;font-weight:700;line-height:1;margin-bottom:0.2rem">$2,000–6K</p>
+        <!-- wp:paragraph {"textColor":"contrast","style":{"typography":{"fontFamily":"var(--wp--preset--font-family--serif)","fontSize":"1.6rem","fontWeight":"700","lineHeight":"1"},"spacing":{"margin":{"bottom":"0.2rem"}}}} -->
+        <p class="has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--serif);font-size:1.6rem;font-weight:700;line-height:1;margin-bottom:0.2rem">$2,000–6K</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.72rem"},"spacing":{"margin":{"bottom":"1rem"}}},"textColor":"contrast-muted"} -->
         <p class="has-contrast-muted-color has-text-color" style="margin-bottom:1rem;font-size:0.72rem">per month</p>
@@ -116,8 +116,8 @@
         <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"0.95rem","fontWeight":"600"},"spacing":{"margin":{"bottom":"0.85rem"}}}} -->
         <h3 class="wp-block-heading" style="margin-bottom:0.85rem;font-size:0.95rem;font-weight:600">Full-Time WP Dev</h3>
         <!-- /wp:heading -->
-        <!-- wp:paragraph {"style":{"typography":{"fontFamily":"var(--wp--preset--font-family--serif)","fontSize":"1.6rem","fontWeight":"700","lineHeight":"1"},"spacing":{"margin":{"bottom":"0.2rem"}}}} -->
-        <p style="font-family:var(--wp--preset--font-family--serif);font-size:1.6rem;font-weight:700;line-height:1;margin-bottom:0.2rem">$70–120K</p>
+        <!-- wp:paragraph {"textColor":"contrast","style":{"typography":{"fontFamily":"var(--wp--preset--font-family--serif)","fontSize":"1.6rem","fontWeight":"700","lineHeight":"1"},"spacing":{"margin":{"bottom":"0.2rem"}}}} -->
+        <p class="has-contrast-color has-text-color" style="font-family:var(--wp--preset--font-family--serif);font-size:1.6rem;font-weight:700;line-height:1;margin-bottom:0.2rem">$70–120K</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.72rem"},"spacing":{"margin":{"bottom":"1rem"}}},"textColor":"contrast-muted"} -->
         <p class="has-contrast-muted-color has-text-color" style="margin-bottom:1rem;font-size:0.72rem">per year</p>

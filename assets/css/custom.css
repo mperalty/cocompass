@@ -261,15 +261,25 @@
   text-wrap: balance;
 }
 
+/* ── Tight card spacing: override WP default blockGap inside cards ───── */
+.cc-card-lift > *,
+.cc-price-highlight > *,
+.cc-card-tight > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* ── Equal-height cards inside columns ────────────────────────────────── */
 .wp-block-columns > .wp-block-column > .cc-card-lift,
-.wp-block-columns > .wp-block-column > .cc-price-highlight {
+.wp-block-columns > .wp-block-column > .cc-price-highlight,
+.wp-block-columns > .wp-block-column > .cc-card-tight {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 .wp-block-columns > .wp-block-column > .cc-card-lift > :last-child,
-.wp-block-columns > .wp-block-column > .cc-price-highlight > :last-child {
+.wp-block-columns > .wp-block-column > .cc-price-highlight > :last-child,
+.wp-block-columns > .wp-block-column > .cc-card-tight > :last-child {
   margin-top: auto;
 }
 
