@@ -12,6 +12,7 @@
 				{ "slug": "contrast-muted", "name": "Contrast Muted", "color": "#8892a8" },
 				{ "slug": "border", "name": "Border", "color": "#e2e7f1" },
 				{ "slug": "border-strong", "name": "Border Strong", "color": "#cbd4e3" },
+				{ "slug": "border-light", "name": "Border Light", "color": "#e2e7f1" },
 				{ "slug": "accent", "name": "Brand Blue", "color": "#2563eb" },
 				{ "slug": "accent-dark", "name": "Brand Blue Dark", "color": "#1d4ed8" },
 				{ "slug": "accent-deep", "name": "Brand Blue Deep", "color": "#1e3a6e" },
@@ -20,7 +21,13 @@
 				{ "slug": "cta-hover", "name": "CTA Orange Hover", "color": "#d14f1c" },
 				{ "slug": "success", "name": "Success Green", "color": "#16a34a" },
 				{ "slug": "warning", "name": "Warning Amber", "color": "#f59e0b" },
-				{ "slug": "danger", "name": "Danger Red", "color": "#dc2626" }
+				{ "slug": "danger", "name": "Danger Red", "color": "#dc2626" },
+				{ "slug": "primary", "name": "Primary", "color": "#2563eb" },
+				{ "slug": "primary-accent", "name": "Primary Accent", "color": "#dbeafe" },
+				{ "slug": "main", "name": "Main", "color": "#0f172a" },
+				{ "slug": "main-accent", "name": "Main Accent", "color": "#cbd4e3" },
+				{ "slug": "secondary", "name": "Secondary", "color": "#4b5675" },
+				{ "slug": "tertiary", "name": "Tertiary", "color": "#f6f8fc" }
 			],
 			"custom": true,
 			"customGradient": false,

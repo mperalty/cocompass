@@ -30,9 +30,10 @@
   color: var(--cc-blue);
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 0.6rem;
+  margin-bottom: 0.75rem;
 }
 .cc-eyebrow::before {
   content: '';
