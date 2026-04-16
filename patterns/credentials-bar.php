@@ -52,7 +52,7 @@
       <span class="cc-credential-icon">WP</span>
       <!-- /wp:html -->
       <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.82rem","fontWeight":"500"}},"textColor":"contrast-muted"} -->
-      <p class="has-contrast-muted-color has-text-color" style="font-size:0.82rem;font-weight:500">15+ years WordPress</p>
+      <p class="has-contrast-muted-color has-text-color" style="font-size:0.82rem;font-weight:500">20+ years WordPress</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->

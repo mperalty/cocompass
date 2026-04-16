@@ -143,6 +143,9 @@
 				}
 			},
 			"h3": {
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"
+				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--serif)",
 					"fontWeight": "600",

@@ -16,12 +16,12 @@
     <!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
     <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
 
-      <!-- wp:paragraph {"className":"cc-eyebrow"} -->
-      <p class="cc-eyebrow"><span class="cc-status-dot"></span> WordPress Performance + Visibility</p>
-      <!-- /wp:paragraph -->
+      <!-- wp:html -->
+      <p style="font-family:var(--wp--preset--font-family--mono);font-size:0.72rem;color:var(--wp--preset--color--accent);letter-spacing:0.1em;text-transform:uppercase;display:flex;align-items:center;gap:0.5rem;margin-bottom:1.25rem"><span class="cc-status-dot"></span> WordPress Performance + Visibility</p>
+      <!-- /wp:html -->
 
-      <!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"clamp(2.4rem, 4.5vw, 3.5rem)","lineHeight":"1.1"},"spacing":{"margin":{"bottom":"1.25rem"}}}} -->
-      <h1 class="wp-block-heading" style="margin-bottom:1.25rem;font-size:clamp(2.4rem, 4.5vw, 3.5rem);line-height:1.1">Your WordPress site is <em style="color:var(--wp--preset--color--accent)">bleeding&nbsp;revenue.</em></h1>
+      <!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"clamp(2.1rem, 4vw, 3.15rem)","lineHeight":"1.1"},"spacing":{"margin":{"bottom":"1.25rem"}}}} -->
+      <h1 class="wp-block-heading" style="margin-bottom:1.25rem;font-size:clamp(2.1rem, 4vw, 3.15rem);line-height:1.1">Your WordPress site is <em style="color:var(--wp--preset--color--accent)">bleeding&nbsp;revenue.</em></h1>
       <!-- /wp:heading -->
 
       <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"1.05rem","lineHeight":"1.7"},"spacing":{"margin":{"bottom":"2rem"}}}} -->
@@ -34,8 +34,8 @@
         <div class="wp-block-button is-style-cc-cta"><a class="wp-block-button__link wp-element-button" href="/contact/">Get a Free Assessment →</a></div>
         <!-- /wp:button -->
 
-        <!-- wp:button {"textColor":"contrast-accent","className":"is-style-outline","style":{"border":{"color":"var(--wp--preset--color--border-strong)","width":"1px","radius":"8px"}}} -->
-        <div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-contrast-accent-color has-text-color wp-element-button" style="border-color:var(--wp--preset--color--border-strong);border-width:1px;border-radius:8px" href="#how">How it works</a></div>
+        <!-- wp:button {"textColor":"contrast-accent","className":"is-style-outline","style":{"border":{"color":"var(--wp--preset--color--border-strong)","width":"1px","radius":"8px"},"spacing":{"padding":{"top":"0.85rem","bottom":"0.85rem","left":"1.5rem","right":"1.5rem"}},"typography":{"fontSize":"0.9rem"}}} -->
+        <div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-contrast-accent-color has-text-color wp-element-button" style="border-color:var(--wp--preset--color--border-strong);border-width:1px;border-radius:8px;padding-top:0.85rem;padding-right:1.5rem;padding-bottom:0.85rem;padding-left:1.5rem;font-size:0.9rem" href="#how">How it works</a></div>
         <!-- /wp:button -->
       </div>
       <!-- /wp:buttons -->

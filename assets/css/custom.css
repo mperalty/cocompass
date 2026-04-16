@@ -256,6 +256,23 @@
   transform: translateY(0);
 }
 
+/* ── Section headings: prevent orphan words ───────────────────────────── */
+.wp-block-heading {
+  text-wrap: balance;
+}
+
+/* ── Equal-height cards inside columns ────────────────────────────────── */
+.wp-block-columns > .wp-block-column > .cc-card-lift,
+.wp-block-columns > .wp-block-column > .cc-price-highlight {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wp-block-columns > .wp-block-column > .cc-card-lift > :last-child,
+.wp-block-columns > .wp-block-column > .cc-price-highlight > :last-child {
+  margin-top: auto;
+}
+
 /* ── Responsive guards ─────────────────────────────────────────────────── */
 @media (max-width: 781px) {
   .cc-diagnostic { max-width: 500px; margin: 0 auto; }

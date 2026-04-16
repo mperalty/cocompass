@@ -56,7 +56,7 @@
             <!-- wp:group {"style":{"spacing":{"padding":{"top":"1.35rem","bottom":"1.35rem","left":"1.35rem","right":"1.35rem"}},"border":{"color":"var(--wp--preset--color--border)","width":"1px","radius":"10px"}},"backgroundColor":"base","layout":{"type":"default"}} -->
             <div class="wp-block-group has-border-color has-base-background-color has-background" style="border-color:var(--wp--preset--color--border);border-width:1px;border-radius:10px;padding-top:1.35rem;padding-right:1.35rem;padding-bottom:1.35rem;padding-left:1.35rem">
               <!-- wp:paragraph {"align":"center","textColor":"accent","style":{"typography":{"fontFamily":"var(--wp--preset--font-family--serif)","fontSize":"2.25rem","fontWeight":"700","lineHeight":"1"}}} -->
-              <p class="has-text-align-center has-accent-color has-text-color" style="font-family:var(--wp--preset--font-family--serif);font-size:2.25rem;font-weight:700;line-height:1">15+</p>
+              <p class="has-text-align-center has-accent-color has-text-color" style="font-family:var(--wp--preset--font-family--serif);font-size:2.25rem;font-weight:700;line-height:1">20+</p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"0.78rem"}},"textColor":"contrast-muted"} -->
               <p class="has-text-align-center has-contrast-muted-color has-text-color" style="font-size:0.78rem">Years in WordPress infrastructure</p>
