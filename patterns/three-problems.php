@@ -30,7 +30,7 @@
       <!-- wp:group {"className":"cc-card-lift cc-problem-card cc-fade-up","style":{"spacing":{"padding":{"top":"1.75rem","bottom":"1.75rem","left":"1.75rem","right":"1.75rem"},"blockGap":"0px"},"border":{"color":"var(--wp--preset--color--border)","width":"1px","radius":"10px"}},"backgroundColor":"base"} -->
       <div class="wp-block-group cc-card-lift cc-problem-card cc-fade-up has-border-color has-base-background-color has-background" style="border-color:var(--wp--preset--color--border);border-width:1px;border-radius:10px;padding-top:1.75rem;padding-right:1.75rem;padding-bottom:1.75rem;padding-left:1.75rem">
         <!-- wp:paragraph {"style":{"typography":{"fontFamily":"var(--wp--preset--font-family--mono)","fontSize":"0.62rem","letterSpacing":"0.1em"}},"textColor":"contrast-muted"} -->
-        <p class="has-contrast-muted-color has-text-color" style="font-family:var(--wp--preset--font-family--mono);font-size:0.62rem;letter-spacing:0.1em">01 — PERFORMANCE</p>
+        <p class="has-contrast-muted-color has-text-color" style="font-family:var(--wp--preset--font-family--mono);font-size:0.62rem;letter-spacing:0.1em">01 / PERFORMANCE</p>
         <!-- /wp:paragraph -->
         <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.15rem"},"spacing":{"margin":{"bottom":"0.65rem"}}}} -->
         <h3 class="wp-block-heading" style="margin-bottom:0.65rem;font-size:1.15rem">Your site is slow and it's costing you conversions</h3>
@@ -58,7 +58,7 @@
       <!-- wp:group {"className":"cc-card-lift cc-problem-card cc-fade-up","style":{"spacing":{"padding":{"top":"1.75rem","bottom":"1.75rem","left":"1.75rem","right":"1.75rem"},"blockGap":"0px"},"border":{"color":"var(--wp--preset--color--border)","width":"1px","radius":"10px"}},"backgroundColor":"base"} -->
       <div class="wp-block-group cc-card-lift cc-problem-card cc-fade-up has-border-color has-base-background-color has-background" style="border-color:var(--wp--preset--color--border);border-width:1px;border-radius:10px;padding-top:1.75rem;padding-right:1.75rem;padding-bottom:1.75rem;padding-left:1.75rem">
         <!-- wp:paragraph {"style":{"typography":{"fontFamily":"var(--wp--preset--font-family--mono)","fontSize":"0.62rem","letterSpacing":"0.1em"}},"textColor":"contrast-muted"} -->
-        <p class="has-contrast-muted-color has-text-color" style="font-family:var(--wp--preset--font-family--mono);font-size:0.62rem;letter-spacing:0.1em">02 — TECHNICAL SEO</p>
+        <p class="has-contrast-muted-color has-text-color" style="font-family:var(--wp--preset--font-family--mono);font-size:0.62rem;letter-spacing:0.1em">02 / TECHNICAL SEO</p>
         <!-- /wp:paragraph -->
         <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.15rem"},"spacing":{"margin":{"bottom":"0.65rem"}}}} -->
         <h3 class="wp-block-heading" style="margin-bottom:0.65rem;font-size:1.15rem">Organic growth has plateaued despite good content</h3>
@@ -86,7 +86,7 @@
       <!-- wp:group {"className":"cc-card-lift cc-problem-card cc-fade-up","style":{"spacing":{"padding":{"top":"1.75rem","bottom":"1.75rem","left":"1.75rem","right":"1.75rem"},"blockGap":"0px"},"border":{"color":"var(--wp--preset--color--border)","width":"1px","radius":"10px"}},"backgroundColor":"base"} -->
       <div class="wp-block-group cc-card-lift cc-problem-card cc-fade-up has-border-color has-base-background-color has-background" style="border-color:var(--wp--preset--color--border);border-width:1px;border-radius:10px;padding-top:1.75rem;padding-right:1.75rem;padding-bottom:1.75rem;padding-left:1.75rem">
         <!-- wp:paragraph {"style":{"typography":{"fontFamily":"var(--wp--preset--font-family--mono)","fontSize":"0.62rem","letterSpacing":"0.1em"}},"textColor":"contrast-muted"} -->
-        <p class="has-contrast-muted-color has-text-color" style="font-family:var(--wp--preset--font-family--mono);font-size:0.62rem;letter-spacing:0.1em">03 — AI VISIBILITY</p>
+        <p class="has-contrast-muted-color has-text-color" style="font-family:var(--wp--preset--font-family--mono);font-size:0.62rem;letter-spacing:0.1em">03 / AI VISIBILITY</p>
         <!-- /wp:paragraph -->
         <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.15rem"},"spacing":{"margin":{"bottom":"0.65rem"}}}} -->
         <h3 class="wp-block-heading" style="margin-bottom:0.65rem;font-size:1.15rem">AI search engines can't find your business</h3>

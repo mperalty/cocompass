@@ -93,7 +93,7 @@
         <p class="has-accent-color has-text-color" style="font-family:var(--wp--preset--font-family--serif);font-size:1.6rem;font-weight:700;line-height:1;margin-bottom:0.2rem">$2,500</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.72rem"},"spacing":{"margin":{"bottom":"1rem"}}},"textColor":"contrast-muted"} -->
-        <p class="has-contrast-muted-color has-text-color" style="margin-bottom:1rem;font-size:0.72rem">per month — 10–15 expert hours</p>
+        <p class="has-contrast-muted-color has-text-color" style="margin-bottom:1rem;font-size:0.72rem">per month / 10–15 expert hours</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.8rem","lineHeight":"1.55"},"spacing":{"margin":{"bottom":"0.85rem"}}}} -->
         <p class="has-contrast-accent-color has-text-color" style="margin-bottom:0.85rem;font-size:0.8rem;line-height:1.55">Performance + Technical SEO + AI Optimization. Implementation, monitoring, monthly reporting, quarterly reviews.</p>

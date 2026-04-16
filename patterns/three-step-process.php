@@ -32,7 +32,7 @@
         <h3 class="wp-block-heading" style="margin-bottom:0.4rem;font-size:1.05rem;font-weight:600">Free Site Assessment</h3>
         <!-- /wp:heading -->
         <!-- wp:paragraph {"textColor":"accent","style":{"typography":{"fontFamily":"var(--wp--preset--font-family--mono)","fontSize":"0.78rem","fontWeight":"600"},"spacing":{"margin":{"bottom":"0.65rem"}}}} -->
-        <p class="has-accent-color has-text-color" style="margin-bottom:0.65rem;font-family:var(--wp--preset--font-family--mono);font-size:0.78rem;font-weight:600">Free — 15 minutes</p>
+        <p class="has-accent-color has-text-color" style="margin-bottom:0.65rem;font-family:var(--wp--preset--font-family--mono);font-size:0.78rem;font-weight:600">Free / 15 minutes</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.85rem","lineHeight":"1.6"}}} -->
         <p class="has-contrast-accent-color has-text-color" style="font-size:0.85rem;line-height:1.6">I run diagnostics and tell you exactly what's slowing your site, hurting your SEO, and whether AI search can find you. 2–3 actionable findings.</p>
@@ -53,7 +53,7 @@
         <h3 class="wp-block-heading" style="margin-bottom:0.4rem;font-size:1.05rem;font-weight:600">Paid Discovery Audit</h3>
         <!-- /wp:heading -->
         <!-- wp:paragraph {"textColor":"accent","style":{"typography":{"fontFamily":"var(--wp--preset--font-family--mono)","fontSize":"0.78rem","fontWeight":"600"},"spacing":{"margin":{"bottom":"0.65rem"}}}} -->
-        <p class="has-accent-color has-text-color" style="margin-bottom:0.65rem;font-family:var(--wp--preset--font-family--mono);font-size:0.78rem;font-weight:600">$2,500 — 1–2 weeks</p>
+        <p class="has-accent-color has-text-color" style="margin-bottom:0.65rem;font-family:var(--wp--preset--font-family--mono);font-size:0.78rem;font-weight:600">$2,500 / 1–2 weeks</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.85rem","lineHeight":"1.6"}}} -->
         <p class="has-contrast-accent-color has-text-color" style="font-size:0.85rem;line-height:1.6">Comprehensive assessment. Detailed report, 45-minute presentation, and a prioritized roadmap with estimated business impact.</p>
@@ -74,7 +74,7 @@
         <h3 class="wp-block-heading" style="margin-bottom:0.4rem;font-size:1.05rem;font-weight:600">Monthly Retainer</h3>
         <!-- /wp:heading -->
         <!-- wp:paragraph {"textColor":"accent","style":{"typography":{"fontFamily":"var(--wp--preset--font-family--mono)","fontSize":"0.78rem","fontWeight":"600"},"spacing":{"margin":{"bottom":"0.65rem"}}}} -->
-        <p class="has-accent-color has-text-color" style="margin-bottom:0.65rem;font-family:var(--wp--preset--font-family--mono);font-size:0.78rem;font-weight:600">$2,500/mo — ongoing</p>
+        <p class="has-accent-color has-text-color" style="margin-bottom:0.65rem;font-family:var(--wp--preset--font-family--mono);font-size:0.78rem;font-weight:600">$2,500/mo / ongoing</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.85rem","lineHeight":"1.6"}}} -->
         <p class="has-contrast-accent-color has-text-color" style="font-size:0.85rem;line-height:1.6">Implementation across all three pillars. Monthly reports. Quarterly reviews. Direct Slack/email with 4-hour response SLA.</p>

@@ -51,7 +51,7 @@
           <span class="cc-diagnostic__dot cc-diagnostic__dot--r"></span>
           <span class="cc-diagnostic__dot cc-diagnostic__dot--y"></span>
           <span class="cc-diagnostic__dot cc-diagnostic__dot--g"></span>
-          <span class="cc-diagnostic__title">site-diagnostic.sh — cocompass</span>
+          <span class="cc-diagnostic__title">site-diagnostic.sh - cocompass</span>
         </div>
         <div class="cc-diagnostic__body">
           <span class="cc-ba-label cc-ba-label--before">Before</span>

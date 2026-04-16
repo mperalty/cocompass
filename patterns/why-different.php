@@ -27,15 +27,15 @@
       <!-- wp:group {"className":"cc-fade-up"} -->
       <div class="wp-block-group cc-fade-up">
         <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.95rem","lineHeight":"1.75"},"spacing":{"margin":{"bottom":"1.1rem"}}}} -->
-        <p class="has-contrast-accent-color has-text-color" style="margin-bottom:1.1rem;font-size:0.95rem;line-height:1.75">I've spent my career as a Technical Account Manager at <strong>Pressable</strong> and <strong>Acquia</strong>—inside the hosting stack, diagnosing the problems most consultants never see.</p>
+        <p class="has-contrast-accent-color has-text-color" style="margin-bottom:1.1rem;font-size:0.95rem;line-height:1.75">I've spent my career as a Technical Account Manager at <strong>Pressable</strong> and <strong>Acquia</strong>, inside the hosting stack, diagnosing the problems most consultants never see.</p>
         <!-- /wp:paragraph -->
 
         <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.95rem","lineHeight":"1.75"},"spacing":{"margin":{"bottom":"1.1rem"}}}} -->
-        <p class="has-contrast-accent-color has-text-color" style="margin-bottom:1.1rem;font-size:0.95rem;line-height:1.75">Your hosting provider optimizes the server. Your developer builds features. Your SEO agency handles content and links. <strong>Nobody optimizes the WordPress application layer</strong>—the code, plugins, database, caching, and search configuration between your hosting and your marketing.</p>
+        <p class="has-contrast-accent-color has-text-color" style="margin-bottom:1.1rem;font-size:0.95rem;line-height:1.75">Your hosting provider optimizes the server. Your developer builds features. Your SEO agency handles content and links. <strong>Nobody optimizes the WordPress application layer</strong>: the code, plugins, database, caching, and search configuration between your hosting and your marketing.</p>
         <!-- /wp:paragraph -->
 
         <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.95rem","lineHeight":"1.75"},"spacing":{"margin":{"bottom":"1.1rem"}}}} -->
-        <p class="has-contrast-accent-color has-text-color" style="margin-bottom:1.1rem;font-size:0.95rem;line-height:1.75">That's what I do. And I do it <strong>vendor-neutral</strong>—I recommend what's best for your business, not for any hosting provider.</p>
+        <p class="has-contrast-accent-color has-text-color" style="margin-bottom:1.1rem;font-size:0.95rem;line-height:1.75">That's what I do. And I do it <strong>vendor-neutral</strong>. I recommend what's best for your business, not for any hosting provider.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -70,7 +70,7 @@
             <!-- wp:group {"style":{"spacing":{"padding":{"top":"1.35rem","bottom":"1.35rem","left":"1.35rem","right":"1.35rem"},"blockGap":"0.3rem"},"border":{"color":"var(--wp--preset--color--border)","width":"1px","radius":"10px"}},"backgroundColor":"base","layout":{"type":"default"}} -->
             <div class="wp-block-group has-border-color has-base-background-color has-background" style="border-color:var(--wp--preset--color--border);border-width:1px;border-radius:10px;padding-top:1.35rem;padding-right:1.35rem;padding-bottom:1.35rem;padding-left:1.35rem">
               <!-- wp:paragraph {"align":"center","textColor":"accent","style":{"typography":{"fontFamily":"var(--wp--preset--font-family--serif)","fontSize":"2.25rem","fontWeight":"700","lineHeight":"1"}}} -->
-              <p class="has-text-align-center has-accent-color has-text-color" style="font-family:var(--wp--preset--font-family--serif);font-size:2.25rem;font-weight:700;line-height:1">2</p>
+              <p class="has-text-align-center has-accent-color has-text-color" style="font-family:var(--wp--preset--font-family--serif);font-size:2.25rem;font-weight:700;line-height:1">4</p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"0.78rem"}},"textColor":"contrast-muted"} -->
               <p class="has-text-align-center has-contrast-muted-color has-text-color" style="font-size:0.78rem">Major hosting platforms (inside)</p>
