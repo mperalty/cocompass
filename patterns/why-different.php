@@ -26,16 +26,16 @@
 
       <!-- wp:group {"className":"cc-fade-up"} -->
       <div class="wp-block-group cc-fade-up">
-        <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.95rem","lineHeight":"1.75"}}} -->
-        <p class="has-contrast-accent-color has-text-color" style="font-size:0.95rem;line-height:1.75">I've spent my career as a Technical Account Manager at <strong>Pressable</strong> and <strong>Acquia</strong>—inside the hosting stack, diagnosing the problems most consultants never see.</p>
+        <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.95rem","lineHeight":"1.75"},"spacing":{"margin":{"bottom":"1.1rem"}}}} -->
+        <p class="has-contrast-accent-color has-text-color" style="margin-bottom:1.1rem;font-size:0.95rem;line-height:1.75">I've spent my career as a Technical Account Manager at <strong>Pressable</strong> and <strong>Acquia</strong>—inside the hosting stack, diagnosing the problems most consultants never see.</p>
         <!-- /wp:paragraph -->
 
-        <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.95rem","lineHeight":"1.75"}}} -->
-        <p class="has-contrast-accent-color has-text-color" style="font-size:0.95rem;line-height:1.75">Your hosting provider optimizes the server. Your developer builds features. Your SEO agency handles content and links. <strong>Nobody optimizes the WordPress application layer</strong>—the code, plugins, database, caching, and search configuration between your hosting and your marketing.</p>
+        <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.95rem","lineHeight":"1.75"},"spacing":{"margin":{"bottom":"1.1rem"}}}} -->
+        <p class="has-contrast-accent-color has-text-color" style="margin-bottom:1.1rem;font-size:0.95rem;line-height:1.75">Your hosting provider optimizes the server. Your developer builds features. Your SEO agency handles content and links. <strong>Nobody optimizes the WordPress application layer</strong>—the code, plugins, database, caching, and search configuration between your hosting and your marketing.</p>
         <!-- /wp:paragraph -->
 
-        <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.95rem","lineHeight":"1.75"}}} -->
-        <p class="has-contrast-accent-color has-text-color" style="font-size:0.95rem;line-height:1.75">That's what I do. And I do it <strong>vendor-neutral</strong>—I recommend what's best for your business, not for any hosting provider.</p>
+        <!-- wp:paragraph {"textColor":"contrast-accent","style":{"typography":{"fontSize":"0.95rem","lineHeight":"1.75"},"spacing":{"margin":{"bottom":"1.1rem"}}}} -->
+        <p class="has-contrast-accent-color has-text-color" style="margin-bottom:1.1rem;font-size:0.95rem;line-height:1.75">That's what I do. And I do it <strong>vendor-neutral</strong>—I recommend what's best for your business, not for any hosting provider.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
