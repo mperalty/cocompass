@@ -1,0 +1,269 @@
+/* ==========================================================================
+   CoCompass — Custom layer
+   Loads after Ollie. Use CSS custom properties from theme.json where possible.
+   ========================================================================== */
+
+:root {
+  --cc-blue:        var(--wp--preset--color--accent);
+  --cc-blue-dark:   var(--wp--preset--color--accent-dark);
+  --cc-blue-light:  var(--wp--preset--color--accent-light);
+  --cc-blue-glow:   rgba(37, 99, 235, 0.08);
+  --cc-cta:         var(--wp--preset--color--cta);
+  --cc-cta-hover:   var(--wp--preset--color--cta-hover);
+  --cc-text:        var(--wp--preset--color--contrast);
+  --cc-text-2:      var(--wp--preset--color--contrast-accent);
+  --cc-text-muted:  var(--wp--preset--color--contrast-muted);
+  --cc-border:      var(--wp--preset--color--border);
+  --cc-border-2:    var(--wp--preset--color--border-strong);
+  --cc-bg-soft:     var(--wp--preset--color--base-accent);
+  --cc-success:     var(--wp--preset--color--success);
+  --cc-danger:      var(--wp--preset--color--danger);
+  --cc-success-bg:  #f0fdf4;
+  --cc-danger-bg:   #fef2f2;
+}
+
+/* ── Section labels (eyebrow) ────────────────────────────────────────────── */
+.cc-eyebrow {
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--cc-blue);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.cc-eyebrow::before {
+  content: '';
+  width: 20px;
+  height: 2px;
+  background: var(--cc-blue);
+}
+
+/* ── Diagnostic panel ────────────────────────────────────────────────────── */
+.cc-diagnostic {
+  background: #fff;
+  border: 1px solid var(--cc-border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow:
+    0 1px 3px rgba(15, 23, 42, 0.04),
+    0 12px 40px rgba(15, 23, 42, 0.08);
+}
+.cc-diagnostic__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid var(--cc-border);
+  background: var(--cc-bg-soft);
+}
+.cc-diagnostic__dot {
+  width: 8px; height: 8px; border-radius: 50%;
+}
+.cc-diagnostic__dot--r { background: #ef4444; }
+.cc-diagnostic__dot--y { background: #f59e0b; }
+.cc-diagnostic__dot--g { background: #22c55e; }
+.cc-diagnostic__title {
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: 0.68rem;
+  color: var(--cc-text-muted);
+  margin-left: 0.5rem;
+}
+.cc-diagnostic__body { padding: 1.25rem; }
+.cc-diagnostic__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--cc-border);
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: 0.75rem;
+}
+.cc-diagnostic__row:last-child { border-bottom: none; }
+.cc-diagnostic__value--bad  { color: var(--cc-danger);  font-weight: 600; }
+.cc-diagnostic__value--good { color: var(--cc-success); font-weight: 600; }
+.cc-diagnostic__bar {
+  height: 3px; border-radius: 2px;
+  margin-top: 0.35rem;
+  background: var(--cc-border);
+  overflow: hidden;
+}
+.cc-diagnostic__bar-fill {
+  height: 100%; border-radius: 2px;
+  animation: cc-fill 1.5s ease-out forwards;
+}
+@keyframes cc-fill { from { width: 0; } }
+
+.cc-ba-label {
+  display: inline-block;
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 3px;
+  margin-bottom: 0.4rem;
+}
+.cc-ba-label--before { background: var(--cc-danger-bg);  color: var(--cc-danger);  border: 1px solid #fecaca; }
+.cc-ba-label--after  { background: var(--cc-success-bg); color: var(--cc-success); border: 1px solid #bbf7d0; }
+
+.cc-diagnostic__divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+}
+.cc-diagnostic__divider span {
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: 0.6rem;
+  color: var(--cc-text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.cc-diagnostic__divider::before,
+.cc-diagnostic__divider::after {
+  content: ''; flex: 1; height: 1px;
+  background: var(--cc-border);
+}
+
+/* ── Hero status dot ────────────────────────────────────────────────────── */
+.cc-status-dot {
+  display: inline-block;
+  width: 6px; height: 6px;
+  background: var(--cc-success);
+  border-radius: 50%;
+  animation: cc-pulse 2s ease-in-out infinite;
+}
+@keyframes cc-pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+/* ── Credentials bar icons ───────────────────────────────────────────────── */
+.cc-credential-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px; height: 30px;
+  background: var(--cc-blue-glow);
+  border: 1px solid rgba(37, 99, 235, 0.12);
+  border-radius: 6px;
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--cc-blue);
+}
+
+/* ── Card hover lifts ────────────────────────────────────────────────────── */
+.cc-card-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.cc-card-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+  border-color: var(--cc-border-2) !important;
+}
+
+/* ── Pricing highlight card glow ────────────────────────────────────────── */
+.cc-price-highlight {
+  position: relative;
+  box-shadow: 0 0 0 1px var(--cc-blue), 0 12px 40px rgba(37, 99, 235, 0.1);
+}
+.cc-price-highlight::after {
+  content: 'RECOMMENDED';
+  position: absolute;
+  top: -9px; right: 1rem;
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  background: var(--cc-blue);
+  color: #fff;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+}
+
+/* ── Problem card top accent bar ─────────────────────────────────────────── */
+.cc-problem-card { position: relative; }
+.cc-problem-card::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 1.5rem; right: 1.5rem;
+  height: 2px; border-radius: 0 0 2px 2px;
+  background: linear-gradient(90deg, var(--cc-danger), transparent);
+  opacity: 0.4;
+}
+
+/* ── Process step header rule ──────────────────────────────────────────── */
+.cc-step-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--cc-blue);
+  margin-bottom: 0.85rem;
+}
+.cc-step-header::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--cc-border);
+}
+
+/* ── Audience link arrow that grows on hover ─────────────────────────────── */
+.cc-arrow-link {
+  font-family: var(--wp--preset--font-family--mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: gap 0.2s;
+}
+.cc-arrow-link:hover { gap: 0.55rem; }
+
+/* ── CTA button orange override ──────────────────────────────────────────── */
+.wp-block-button.is-style-cc-cta .wp-block-button__link {
+  background: var(--cc-cta);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(232, 93, 38, 0.18);
+  transition: background 0.25s, transform 0.25s, box-shadow 0.25s;
+}
+.wp-block-button.is-style-cc-cta .wp-block-button__link:hover {
+  background: var(--cc-cta-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(232, 93, 38, 0.22);
+}
+.wp-block-button.is-style-cc-cta .wp-block-button__link:focus-visible {
+  outline: 2px solid var(--cc-blue);
+  outline-offset: 3px;
+}
+
+/* ── Scroll reveal ─────────────────────────────────────────────────────── */
+.cc-fade-up {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.cc-fade-up.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Responsive guards ─────────────────────────────────────────────────── */
+@media (max-width: 781px) {
+  .cc-diagnostic { max-width: 500px; margin: 0 auto; }
+}
+
+/* ── Accessibility: reduced motion ─────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .cc-fade-up { opacity: 1; transform: none; transition: none; }
+  .cc-status-dot { animation: none; }
+  .cc-diagnostic__bar-fill { animation: none; }
+  .cc-card-lift { transition: none; }
+}
